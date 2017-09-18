@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #146C0A;
+}
+#container {
+	margin: 0 auto;
+	width: 62%;
+}
+header {
+	color: #333;
+	width: 100%;
+	padding: .625% 0% 0% 6.25%;
+	float: left;
+	height: 100px;
+	margin: 1.25% 0% 0% 0%;
+	background: #E7DBD5  url(../../../../../../project/project/greenthumb/assets/header.jpg)  no-repeat top center;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav {
+	float: left;
+	width: 100%;
+	color: #333;
+	padding: 1.25% 0% 1.25% 0%;
+	background: #ECDF68;
+	 -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #001C05;
+	
+}
+
+ a:hover{ color:#32B423;
+}
+article {
+	color: #333;
+	padding: 1.25%;
+	width: 70%;
+	float: left;
+	display: inline;
+	background: #F2F2E6;
+	 -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+aside {
+	float: right;
+	color: #333;
+	padding: 1.25%;
+	height: auto;
+	width: 30%;
+	background: #F0EF84;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer {
+	width: 100%;
+	max-width:100%;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+	color: #fff;
+	background: #7797AE  url(../../../../../../project/project/greenthumb/assets/footer.jpg) no-repeat top center;
+	padding: 4.25%;
+	margin:  0% 0% 1.25% 0%;
+	 -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.nav-list li {
+	display: inline;
+	list-style-type: none;
+	margin: 1.25% 2.5% 1.25% 2.5%;
+	padding-left: 60px;
+}
+ul.aside-list li {
+	list-style-type:none;
+	margin: 1.25% .625% 1.25% 4.375%;
+}
+ul.aside-list li:first-of-type {
+	margin-top: 30px;
+	list-style-type:none;
+}
+article img.alignright{
+	width: 33.3333%;
+	max-width: 33.3333%;
+	display:inline; 
+	float: right; 
+	border: 1px solid black;
+	margin: 2.5% 1.8% .625% 1.8%;
+}
+p {
+	font-size: 1em;
+	margin-top: 10px;
+	color: #001C05;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2{
+	font-size: 1.625em;
+	color: #001C05;
+}
+h3{
+	font-size: 1.125em;
+	color: #001C05;
+	text-align: center;
+}
+
+
+@media (min-width: 681px) and (max-width: 799px){
+
+
+nav li{ 
+font-size:12px;
+
+
+}
+
+h2{
+font-size:20px;
+text-align:center;
+
+}
+
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px){
+	
+	h2{
+		text-align:center;
+	}
+	
+}
+
+@media (min-width: 1000px){
+	
+	
+	
+	
+	
+	
+}
