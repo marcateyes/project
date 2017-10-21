@@ -109,7 +109,6 @@ p {
 	font-size: 1em;
 	margin-top: 10px;
 	color: #146C0A;
-	text-align: center;
 }
 h1 {
 	font-size: 1.875em;
@@ -157,15 +156,9 @@ textarea{
 }
 
 input.sbtn{
-	margin-left: 160px;
+	margin-left: 140px;
 	color:#001C05;
 }
-
-fieldset.btn{
-	margin-left: 150px;
-}
-
-
 
 /* about us page */
 
@@ -190,67 +183,12 @@ fieldset.btn{
 .contactaside {
 	padding-bottom: 198px;
 	}
-	
 
-/* thank you page */
-
-.thankyouarticle {
-	padding-bottom: 325px;
-	
-}
-
-.thankyouaside {
-	padding-bottom: 325px;
-	
-}
 
 
 /* Media Queries */
 
-@media (min-width: 650px){
-	
-	.thankyouarticle{
-		height: 313px;
-	}
-	
-	.thankyouaside{
-		height: 330px;
-	}
-	
-	.productarticle{
-		height: 400px;
-	}
-	
-	.productaside{
-		height: 400px;
-	}
-	.contactaside{
-		height: 440px;
-	}
-	
-	.contactarticle{
-		height: 500px;
-	}
-	
-	.sbtn {
-		float:left;	
-		
-
-	}
-	
-	.indexa{
-		height:384px;
-	}
-	
-	.articleindex {
-		height:384px;
-	}
-	
-	header{
-		width: 100% ;
-		
-		
-	}
+@media (min-width: 575px){
 	
 	h2{
 		font-size: 1.2em;
@@ -262,35 +200,11 @@ fieldset.btn{
 	
 	input.sbtn{
 		margin-left: 10px;
-		
 	}
 	
-	.aboutarticle {
-		height: 560px;
-	
-	}
-	
-	.aboutaside { 
-	height:560px;
 }
-
-
-}
-
-
 
 @media (min-width: 800px) {
-	
-
-	
-	
-	.productarticle{
-		height: 350px;
-	}
-	
-	.productaside{
-		height: 350px;
-	}
 	
 	h2{
 		text-align:center;
@@ -298,65 +212,12 @@ fieldset.btn{
 	
 }
 
-.contactarticle {
-	height: 435px;
-	
-}
-
-.contactaside {
-	height: 435px;
-	
-}
-
-.txt{
-	margin-top: 10px;
-	width: 180px
-
-}
-
-fieldset.btn{
-	
-	margin-left: 17px;
-	width:180px;	
-}
-
-.aboutarticle {
-	height: 400px;
-}
-
-.aboutaside {
-	height: 400px;
-}
-
-.sbtn {
-	font-size: .8em;
-	
-}
-
-
-
-
-	
-
 @media (min-width: 1000px){
-	
-
-	
-	
-	.productarticle{
-		height: 300px;
+	h2{
+		
 	}
 	
-	.productaside{
-		height: 300px;
+	input.sbtn{
+		margin-left: 75px;
 	}
-	
-	fieldset.btn {
-		margin-left:170px;
-		width:180px;
-	}
-	
-	
-}
-.thankyouaside {
 }

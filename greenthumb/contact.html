@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Green Thumb</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/form.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/paragraph.js"></script>
+</head>
+
+<body>
+
+<!-- Begin Wrapper -->
+<div id="container"> 
+  
+  <!-- Begin Header -->
+  <header>
+    
+  </header>
+  <!-- End Header --> 
+  
+  <!-- Begin Navigation -->
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+  </nav>
+  <!-- End Navigation --> 
+  
+  <!-- Begin Main Content -->
+  <article class="contactarticle">
+    <h2>Reach Us</h2>
+
+  
+  
+  
+<form action="thank_you.html" method="get" name="contact_form" onsubmit="return Validate()">
+        <fieldset style="">
+               <legend style="color: #001C05; font-size: 100%;">*Required fields</legend>
+            
+               <label>E-Mail (*):</label>
+                <input type="email" name="_email" onkeyup="CheckForBlank('_email')" onblur="CheckForBlank('_email')" title="Enter a valid email address!" placeholder="me@example.com" onclick="select()" required /> <label id="contact_form_email"></label> <br/>
+            
+            <label>First Name (*):</label>
+                <input type="text" name="_fname" onkeyup="CheckForBlank('_fname')" onblur="CheckForBlank('_fname')" title="Enter your first name!" placeholder="First Name" onclick="select()" required /> <label id="contact_form_fname"></label> <br/>
+            
+            <label>Last Name (*):</label>
+                <input type="text" name="_lname" onkeyup="CheckForBlank('_lname')" onblur="CheckForBlank('_lname')" title="Enter your last name!" placeholder="Last Name" onclick="select()" required /> <label id="contact_form_lname"></label> <br/>
+
+            
+            <label>Comments (*):</label>
+                <textarea name="_comments" cols="23" rows="5" class="txt" title="Enter your comments!" onblur="CheckForBlank('_comments')" onclick="select()" onkeyup="CheckForBlank('_comments')"></textarea> <label id="contact_form_comments"></label>
+        </fieldset>
+            
+        <fieldset class="btn">
+            <label id="error"> </label> <br/>
+            <input name="_submit" type="submit" class="sbtn" value="Submit Form" />
+            <input type="reset" class="sbtn" value="Reset Form" /> <br/>
+        </fieldset>
+  </form>
+
+
+
+
+	
+    
+  </article>
+  <!-- End Main Content --> 
+  
+  <!-- Begin Aside -->
+  <aside class="contactaside">
+    <h3>Affiliations</h3>
+    <ul class="aside-list" style="">
+      <li><a href="https://www.nutrition.gov/" target="_blank">Nutrition</a></li>
+      <li><a href="https://www.nutrisystem.com/jsps_hmr/home/index.jsp?gclid=CjwKEAjw64bPBRCpzun7mpbillUSJAAmEb5-tlL2fWyTGz34pLufNugCbTm45wAe9xR7pR8x8eGuEBoCrrvw_wcB" target="_blank">Diet</a></li>
+      <li><a href="http://nucific.com/3harmfulfoods/?utm_source=google&utm_medium=cpc&utm_campaign=sch-broads&gclid=CjwKCAjw64bPBRApEiwAJhG-fmX9OUl3Q7akoG0chGcj4gP9r5DHyfEzerV0m07CAXCKMGR1Zl-CtxoCFAcQAvD_BwE&utm_expid=101999475-8.SDJRm2WyR1CuBoxgrIEDtQ.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">Veganism</a></li>
+      <li><a href="http://ommeditation.org/" target="_blank">Meditation</a></li>
+ 
+    </ul>
+    
+  </aside>
+  <!-- End Right Column --> 
+  
+  <!-- Begin Footer -->
+  <footer>
+   
+  </footer>
+  <!-- End Footer --> 
+  
+</div>
+<!-- End Wrapper -->
+
+</body>
+</html>
